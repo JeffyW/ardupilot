@@ -1082,7 +1082,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ArduCopter\ArduCopter.pde" />
     <None Include="ArduCopter\make.inc">
       <Filter>Header Files</Filter>
     </None>
@@ -1090,6 +1089,7 @@
     <None Include="ArduCopter\nocore.inoflag" />
     <None Include="ArduCopter\Parameters.pde" />
     <None Include="libraries\GCS_MAVLink\generate.sh" />
+    <None Include="ArduCopter\ArduCopter.pde" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArduCopter\Copter.cpp">
