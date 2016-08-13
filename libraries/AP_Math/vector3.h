@@ -53,6 +53,7 @@
 #include <math.h>
 #include <float.h>
 #include <string.h>
+#include "rotations.h"
 
 
 #if defined(MATH_CHECK_INDEXES) && (MATH_CHECK_INDEXES == 1)
