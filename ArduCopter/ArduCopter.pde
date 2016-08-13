@@ -72,6 +72,8 @@
  *  Requires modified version of Arduino, which can be found here: http://ardupilot.com/downloads/?category=6
  *
  */
+#define Arduino_h
+#include <Arduino.h>
 
 #include "Copter.h"
 
