@@ -442,6 +442,8 @@ AP_InertialSensor::_detect_backends(void)
     _add_backend(AP_InertialSensor_LSM9DS0::detect(*this));
 #elif HAL_INS_DEFAULT == HAL_INS_L3G4200D
     _add_backend(AP_InertialSensor_L3G4200D::detect(*this));
+#elif HAL_INS_DEFAULT == HAL_INS_ADAFRUIT10DoF
+	_add_backend(AP_InertialSensor_Adafruit10DoF::detect(*this));
 #else
     #error Unrecognised HAL_INS_TYPE setting
 #endif

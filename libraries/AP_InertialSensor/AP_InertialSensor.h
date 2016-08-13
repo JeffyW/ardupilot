@@ -379,5 +379,6 @@ private:
 #include "AP_InertialSensor_HIL.h"
 #include "AP_InertialSensor_UserInteract_Stream.h"
 #include "AP_InertialSensor_UserInteract_MAVLink.h"
+//#include "AP_InertialSensor_Adafruit10DoF.h"
 
 #endif // __AP_INERTIAL_SENSOR_H__
