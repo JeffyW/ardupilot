@@ -59,6 +59,7 @@
 #include <AP_Curve/AP_Curve.h>           // Curve used to linearlise throttle pwm to thrust
 #include <AP_InertialSensor/AP_InertialSensor.h>  // ArduPilot Mega Inertial Sensor (accel & gyro) Library
 #include <AP_AHRS/AP_AHRS.h>
+#include <AP_AHRS/AP_AHRS_NavEKF.h>
 #include <AP_NavEKF/AP_NavEKF.h>
 #include <AP_Mission/AP_Mission.h>         // Mission command library
 #include <AP_Rally/AP_Rally.h>           // Rally point library
