@@ -24,6 +24,8 @@
 #ifndef __AP_INERTIALSENSOR_BACKEND_H__
 #define __AP_INERTIALSENSOR_BACKEND_H__
 
+#include <AP_MATH/vector3.h>
+
 class AP_InertialSensor_Backend
 {
 public:
